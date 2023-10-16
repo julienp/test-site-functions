@@ -1,0 +1,7 @@
+[build]
+command = "mkdir public && cp index.html public/"
+publish = "public"
+
+[[edge_functions]]
+function = "set-response-header"
+path = "/*"
